@@ -4,7 +4,7 @@
   "description": "this is a backend of the ask question",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "ankit",
   "license": "ISC",
