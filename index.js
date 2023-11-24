@@ -8,7 +8,7 @@ const db =require('./db')
 const router=require('./routers/index')
 app.use(cors())
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('chal rha hai ')
 })
 // listing on server
 
