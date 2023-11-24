@@ -6,9 +6,7 @@ const user=require('./user')
 const { login, register } = require('../controller/auth')
 
 
-router.get('/',(req,res)=>{
-    res.send("Ask Questions")
-})
+
 router.use('/question',question)
 
 router.use('/login',login)
